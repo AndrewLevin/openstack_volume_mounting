@@ -1,5 +1,7 @@
 # openstack_volume_mounting
 
+<!--- https://clouddocs.web.cern.ch/details/block_volumes.html -->
+
 1) mkfs -t ext4 -L amlevin1volume /dev/vdb
 2) mount -L amlevin1volume /mnt
 3) chmod +t /mnt
