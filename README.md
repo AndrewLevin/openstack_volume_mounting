@@ -1,6 +1,6 @@
 # openstack_volume_mounting
 
-1) mkfs -t ext4 -L amnlevin1volume /dev/vdb
+1) mkfs -t ext4 -L amlevin1volume /dev/vdb
 2) mount -L testvol /mnt
 3) chmod +t /mnt
 4) chmod a+w /mnt
