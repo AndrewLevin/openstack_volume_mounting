@@ -5,3 +5,4 @@
 3) chmod +t /mnt
 4) chmod a+w /mnt
 5) Add the line `LABEL=amlevin1volume /mnt ext4 noatime,nodiratime,user_xattr,nofail    0       0` to the file /etc/fstab
+6) systemctl daemon-reload
